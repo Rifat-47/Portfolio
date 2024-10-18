@@ -22,10 +22,12 @@ const ContactForm = () => {
 				(result) => {
 					contactFormRef.current.reset();
 					setModalOpen(isModalopen => !isModalopen);
-					setSuccessMailSent(isSuccessMailSent => !isSuccessMailSent);
+					// setSuccessMailSent(isSuccessMailSent => !isSuccessMailSent);
+					setSuccessMailSent(true);
 				},
 				(error) => {
 					setModalOpen(isModalopen => !isModalopen);
+					setSuccessMailSent(false);
 				}
 			);
 	};
