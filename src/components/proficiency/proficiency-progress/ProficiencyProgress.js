@@ -4,9 +4,9 @@ import LinearProgress from "@mui/material/LinearProgress";
 import { Fade } from "react-reveal";
 
 const proficiencyData = [
-	{ id: 1, proficiencyName: "Frontend / Design", progressValue: 85 },
-	{ id: 2, proficiencyName: "Backend", progressValue: 75 },
-	{ id: 3, proficiencyName: "Programming", progressValue: 65 }
+	{ id: 1, proficiencyName: "Manual Testing", progressValue: 90 },
+	{ id: 2, proficiencyName: "Automation Testing", progressValue: 70 },
+	{ id: 3, proficiencyName: "API Testing", progressValue: 85 }
 ];
 
 const ProficiencyProgress = () => {

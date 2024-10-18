@@ -119,7 +119,6 @@ const ContactForm = () => {
 								<MailActionModal isSuccessMailSent={isSuccessMailSent} />
 							</Modal>
 						)}
-
 					</Box>
 				</Box>
 			</Box>

@@ -45,8 +45,8 @@ const WelcomeText = () => {
 					<Typewriter
 						options={{
 							strings: [
-								"<i>MD. JAHID HOSSAIN</i>",
-								"<i>A STUDENT</i>"
+								"<i>RIFAT IBN TAHER</i>",
+								"<i></i>"
 							],
 							autoStart: true,
 							loop: true
@@ -70,7 +70,7 @@ const WelcomeText = () => {
 						sx={customStyle.buttonStyle}
 						onClick={() =>
 							RedirectNewPage(
-								"https://drive.google.com/file/d/1CV9XM_wcM6I1UgD6_5hs9XRuCuN_R44L/view?usp=sharing"
+								"https://drive.google.com/file/d/1eC0PZGtPfquFNydrGy4OaxtPu17jr2L2/view?usp=sharing"
 							)
 						}
 						onMouseOver={() => setDownloadCvBtn(true)}

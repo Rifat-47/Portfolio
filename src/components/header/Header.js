@@ -59,7 +59,7 @@ const Header = () => {
 										: "h6"
 								}
 							>
-								MD. JAHID HOSSAIN
+								Rifat Ibn Taher 
 							</Typography>
 						</LinkS>
 

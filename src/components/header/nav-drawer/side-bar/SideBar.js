@@ -26,7 +26,7 @@ const SideBar = ({ toggleDrawer }) => {
 					style={{ cursor: "pointer" }}
 				>
 					<Typography sx={customStyle.logo} variant="h6">
-						MD. JAHID HOSSAIN
+						Rifat Ibn Taher
 					</Typography>
 				</LinkS>
 

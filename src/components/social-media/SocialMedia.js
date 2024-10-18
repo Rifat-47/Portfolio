@@ -16,7 +16,7 @@ const SocialMedia = () => {
 				</IconButton>
 			))}
 
-			<IconButton onClick={() => RedirectNewPage('https://stackoverflow.com/users/12334231/md-jahid-hossain')}>
+			<IconButton onClick={() => RedirectNewPage('https://stackoverflow.com/users/13821278/rifat1747')}>
 				<StackOverflowIcon />
 			</IconButton>
 

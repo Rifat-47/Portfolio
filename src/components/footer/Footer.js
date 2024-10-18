@@ -1,14 +1,15 @@
 import React from "react";
 import { Box, Grid, Typography, Avatar, Divider } from "@mui/material";
 import { Call, Mail, LocationOn } from "@mui/icons-material";
-import jahid from "../../assets/images/jahid.jpg";
+// import jahid from "../../assets/images/jahid.jpg";
 import SocialMedia from "../social-media/SocialMedia";
 import { Fade, Slide, Zoom } from "react-reveal";
+import rifat from "../../assets/images/Rifat.jpg";
 
 const footerData = [
-	{ id: 1, icon: Call, text: "+880 1732271677" },
-	{ id: 2, icon: Mail, text: "jahid6597@gmail.com" },
-	{ id: 3, icon: LocationOn, text: "Chittagong, Bangladesh " }
+	{ id: 1, icon: Call, text: "+880 1628903593" },
+	{ id: 2, icon: Mail, text: "rifatscc1747@gmail.com" },
+	{ id: 3, icon: LocationOn, text: "Dhaka, Bangladesh " }
 ];
 
 const Footer = () => {
@@ -36,7 +37,7 @@ const Footer = () => {
 								fontSize: { md: 50, xs: 40 }
 							}}
 						>
-							MD. JAHID HOSSAIN
+							Rifat Ibn Taher 
 						</Typography>
 
 						{footerData.map((data) => (
@@ -74,8 +75,8 @@ const Footer = () => {
 				>
 					<Fade bottom>
 						<Avatar
-							alt="jahid"
-							src={jahid}
+							alt="rifat"
+							src={rifat}
 							sx={{
 								width: { md: 250, xs: 200 },
 								height: { md: 250, xs: 200 },
