@@ -15,7 +15,7 @@ export const educationData = [
 		logo: SCC,
 		institution: "Sylhet Cadet College",
 		degree: "Higher Secondary School Certificate",
-		year: "2014-2015"
+		year: "2014 - 2015"
 	},
 	{
 		id: 3,
